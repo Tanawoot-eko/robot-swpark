@@ -19,7 +19,7 @@ Sorting by price 2
     App should display from highest to lowest price    
 
 Sorting by price 3
-    [Tags]  progress sprint3
+    [Tags]  progress
     Open home page
     Go to summer dress
     Sortiing by price from highest to lowest
