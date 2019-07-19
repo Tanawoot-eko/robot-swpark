@@ -2,25 +2,26 @@
 Resource                  pages/homepage.robot
 Resource                  pages/catalog.robot
 
+Suite Setup       Open home page
+Suite Teardown    Close Browser
+Test Teardown     Back to homepage
+
 *** Test Case ***
 
 Sorting by price
     [Tags]  done  sprint1
-    Open home page
     Go to summer dress
     Sortiing by price from highest to lowest
     App should display from highest to lowest price    
 
 Sorting by price 2
-    [Tags]  progress sprint2
-    Open home page
+    [Tags]  progress
     Go to summer dress
     Sortiing by price from highest to lowest
     App should display from highest to lowest price    
 
 Sorting by price 3
     [Tags]  progress
-    Open home page
     Go to summer dress
     Sortiing by price from highest to lowest
     App should display from highest to lowest price   
@@ -37,7 +38,9 @@ Sortiing by price from highest to lowest
 
 App should display from highest to lowest price
     catalog.Show loading icon
-    
+
+Back to homepage
+    homepage.Back to homepage    
 
 
 

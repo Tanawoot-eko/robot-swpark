@@ -13,3 +13,6 @@ Go to summer dress
     Mouse over    //ul[contains(@class, "menu-content")]/li[2]/a[@title="Dresses"]
     Wait until element is visible    //ul[contains(@class, "menu-content")]/li[2]/ul[contains(@class, "submenu")]//a[@title="Summer Dresses"]
     Click element    //ul[contains(@class, "menu-content")]/li[2]/ul[contains(@class, "submenu")]//a[@title="Summer Dresses"]
+
+Back to homepage
+    Go To    ${URL}
